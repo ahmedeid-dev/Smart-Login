@@ -17,15 +17,15 @@ loginButton.addEventListener("click", function () {
     for (var i = 0; i < mailsList.length; i++) {
         if (mailsList[i].userEmail == loginEmail.value && mailsList[i].userPassword == loginPassword.value) {
             localStorage.setItem("loggedName", JSON.stringify(mailsList[i].userName));
-            window.location = "../html/logged.html";
+            window.location = "html/logged.html";
             return
         }
     }
     loginAlert.classList.remove("d-none");
 });
 goingSignupButton.addEventListener("click", function () {
-    window.location = "../html/signup.html";
+    window.location = "html/signup.html";
 });
 goingForgetButton.addEventListener("click", function () {
-    window.location = "../html/reset.html";
-});
+    window.location = "html/reset.html";
+}); 
