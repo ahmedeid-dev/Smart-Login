@@ -1,0 +1,65 @@
+.bg-navy-blue{
+    background-color: #24353F;
+}
+.text-sky-blue{
+    color: #17A2B8;
+}
+body{
+    background-color: #24353F;
+    text-align: center !important;
+}
+h1{
+    color: #17A2B8;
+}
+h2{
+    color: #fff;
+}
+input{
+    /* background-color: transparent !important; */
+    /* color: #fff !important; */
+    margin-block: 1rem;
+}
+p{
+    margin-block: 1rem;
+}
+#loginForm{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+#loginForm p button{
+    text-decoration: none !important;
+
+}
+#loginForm p button:hover{
+    text-decoration: underline !important;
+}
+#signupForm{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+#signupForm p button{
+    text-decoration: none !important;
+
+}
+#signupForm p button:hover{
+    text-decoration: underline !important;
+}
+#logged nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+#logged .welcomeName{
+    margin:10rem auto;
+    width: 50%;
+    box-shadow: 0 0 10px 1px #000 !important;
+}
+#signupForm p span:hover {
+    text-decoration: underline;
+}
+#forgetForm{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
+#forgetForm p button{
+    text-decoration: none !important;
+
+}
+#forgetForm p button:hover{
+    text-decoration: underline !important;
+}

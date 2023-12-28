@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- Css Links -->
+    <link rel="import" href="html/logged.html" />
+    <link rel="import" href="html/signup.html" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div
+    id="loginForm"
+    class="mx-auto mt-5 p-5 w-50"
+    >
+    <h1>Smart Login System</h1>
+    <input
+        class="form-control"
+        type="email"
+        name="loginEmail"
+        id="loginEmail"
+        placeholder="Enter Your Email...."
+    />
+    <input
+        class="form-control"
+        type="password"
+        name="loginPassword"
+        id="loginPassword"
+        placeholder="Enter Your Password...."
+    />
+    <label id="loginAlert" for="loginButton" class="alert alert-danger w-100 d-none">incorrect email or password</label>
+    <button
+        id="loginButton"
+        class="btn btn-outline-info w-100"
+        type="submit"
+        >
+        Login
+    </button>
+    <p class="text-white d-flex justify-content-center">
+        Don't Have An Account?
+        <button class="btn btn-link text-white py-0 px-1" id="goingSignupButton">Sign Up</button>
+    </p>
+    <p class="text-primary d-flex justify-content-center">
+        Forget Your Password?
+        <button class="btn btn-link text-primary py-0 px-1" id="goingForgetButton">Reset Password</button>
+    </p>
+    </div>
+    <!-- Js Links -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

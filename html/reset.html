@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Forget Password</title>
+<!-- Css Links -->
+<link rel="import" href="../index.html" />
+<link rel="import" href="signup.html" />
+<link rel="stylesheet" href="../css/all.min.css">
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div id="forgetForm" class="mx-auto mt-5 p-5 w-50">
+        <h1>Smart Login System</h1>
+        <div id="userName" class="d-none">
+            <input
+            class="form-control"
+            type="text"
+            name="signUpName"
+            id="signUpName"
+            placeholder="Enter Your Name"
+            />
+        </div>
+    <div id="userEmail">        
+    <input
+    class="form-control"
+    type="email"
+    name="forgetEmail"
+    id="forgetEmail"
+    placeholder="Enter Your Email"
+    />
+    <label id="userEmailAlert" for="forgetEmail" class="alert alert-danger w-100 d-none">Wrong Email !!! <br>You Should Write A Correct Email Such As 'example@abc.com'</label>
+    </div>
+    <div id="userPassword">        
+    <input
+    class="form-control d-none"
+    type="password"
+    name="forgetPassword"
+    id="forgetPassword"
+    placeholder="Enter Your Password"
+    />
+    <label id="userPasswordAlert" for="forgetPassword" class="alert alert-danger w-100 d-none">Write A Correct Password 'Minimum "8" characters, at least "1" letter and "1" number'</label>
+    </div>
+    <label id="signupAlert" for="submitButton" class="alert alert-danger w-100 d-none">All inputs is required</label>
+
+    <button
+    class="btn btn-outline-info w-100"
+    type="submit"
+    id="submitButton"
+    >
+    Submit
+    </button>   
+     <button
+    class="btn btn-outline-info w-100 d-none"
+    type="submit"
+    id="updateButton"
+    >
+    Update
+    </button>
+    <p class="text-white d-flex justify-content-center">
+    You Have An Account?
+    <button class="btn btn-link text-white py-0 px-1" id="goingSigninButton">
+        Sign in
+    </button>
+    </p>
+    <p class="text-info d-flex justify-content-center">
+        Don't Have An Account?
+        <button class="btn btn-link text-info py-0 px-1" id="goingSignupButton">Sign Up</button>
+    </p>
+    </div>
+<!-- Js Links -->
+<script src="../js/all.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/reset.js"></script>
+</body>
+</html>
